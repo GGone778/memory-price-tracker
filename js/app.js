@@ -41,15 +41,14 @@
     return parts[1] + '月';
   }
 
-  // 生成购买链接（京东 / 天猫 / 拼多多）
-    function generatePurchaseLinks(p) {
+  // 生成购买链接（淘宝 / 天猫 / 拼多多）
+  function generatePurchaseLinks(p) {
     const keyword = encodeURIComponent(p.brand.split(' ')[0] + ' ' + p.name + ' ' + p.specs.speed + ' ' + p.specs.capacity + 'GB');
     const price = p.currentPrice;
-    // 淘宝联盟推广链接（PID: mm_10378259192_3424050186_116287850398）
-    const affiliateBase = 'https://s.click.taobao.com/t?e=m%3D2%26s%3D%2FIMDr7ekiSVw4vFB6t2Z2ueEDrYVVa64YUrQeSeIhnK53hKxp7mNFo30ZFekjizvddHxgDIYES%2F0JlhLk0Jl4ZGFwieI5raviqkbEUdU8r4cKhwHOZgCBEcJT1Qmc5iPBxobTWzEJK7WqunGLAygI3FzUC1tkZVL%2BUiqE5XxszqdYh4l0uKumM0Q9fK1X0Au0ItOGVs%2B65ktv3cN%2Fx87OLmO%2FxuoYpzJyHJSFW0nXw%2Fx4iwY2kD%2FOCbXePZs%2BTK5n1FqhqgBFGmOd0BEOqp7nD%2FOlpu4wz2ocHol32lR%2BtHUqKWYqyfTDKAGz9nhKe%2FuO8vH6hQ5u0HGDmntuH4VtA%3D%3D';
+    const affiliateLinks = p.affiliateLinks || {};
     return [
-      { platform: '淘宝', price: price, url: affiliateBase + '&kw=' + keyword },
-      { platform: '天猫', price: Math.round(price * 1.02), url: affiliateBase + '&pl=tmall' },
+      { platform: '淘宝', price: price, url: affiliateLinks.taobao || 'https://s.taobao.com/search?q=' + keyword },
+      { platform: '天猫', price: Math.round(price * 1.02), url: affiliateLinks.tmall || 'https://list.tmall.com/search_product.htm?q=' + keyword },
       { platform: '拼多多', price: Math.round(price * 0.95), url: 'https://mobile.yangkeduo.com/search_result.html?keyword=' + keyword }
     ];
   }

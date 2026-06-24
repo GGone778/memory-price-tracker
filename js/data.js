@@ -990,7 +990,10 @@ const RAMData = {
       reviews: 22000,
       launchDate: '2024-Q2',
       hot: true,
-      similarIds: ['gw-d5-6000-32', 'kus-d5-6000-32', 'kv-d5-6000-32']
+      similarIds: ['gw-d5-6000-32', 'kus-d5-6000-32', 'kv-d5-6000-32'],
+      affiliateLinks: {
+        taobao: 'https://s.click.taobao.com/t?e=m%3D2%26s%3D%2FIMDr7ekiSVw4vFB6t2Z2ueEDrYVVa64YUrQeSeIhnK53hKxp7mNFo30ZFekjizvddHxgDIYES%2F0JlhLk0Jl4ZGFwieI5raviqkbEUdU8r4cKhwHOZgCBEcJT1Qmc5iPBxobTWzEJK7WqunGLAygI3FzUC1tkZVL%2BUiqE5XxszqdYh4l0uKumM0Q9fK1X0Au0ItOGVs%2B65ktv3cN%2Fx87OLmO%2FxuoYpzJyHJSFW0nXw%2Fx4iwY2kD%2FOCbXePZs%2BTK5n1FqhqgBFGmOd0BEOqp7nD%2FOlpu4wz2ocHol32lR%2BtHUqKWYqyfTDKAGz9nhKe%2FuO8vH6hQ5u0HGDmntuH4VtA%3D%3D&union_lens=lensId%3APUB%401782271022%40213ee9e4_0dd1_19ef7a194fe_1fc8%40022Sif2njMsp2AElipfW6MrN%40eyJmbG9vcklkIjo4MDY3NCwiic3BtQiiI6Il9wb3J0YWxfdjJfcGFnZXNfcHJvbW9fZ29vZHNfaW5kZXhfaHRtIiiwiic3JjRmxvb3JJZCI6IjgwNjc0In0ie%3BtkScm%3AselectionPlaza_site_4358_0_0_0_1_178227102242010378259192%3Bscm%3A1007.30148.329090.pub_search-item_0fedd03d-b585-4b05-8c67-af49e3ee4d27_'
+      }
     },
     {
       id: 'gw-d5-6400-32',
