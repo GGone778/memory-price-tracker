@@ -1061,9 +1061,9 @@ const RAMData = {
     },
     {
       id: 'kingbank-d5-6400-32',
-      name: '海神 DDR5 RGB',
+      name: 'DDR5 RGB',
       brand: '金百达 (KingBank)',
-      description: '金百达海神 DDR5 RGB 内存条，采用海力士 A-die 颗粒，6400MHz 高频 CL30 低时序，RGB 灯效拉满。',
+      description: '金百达 DDR5 RGB 内存条，采用高频 DDR5 方案，支持 XMP 超频，兼顾装机性价比与灯效外观。具体系列名待人工核验。',
       features: ['海力士 A-die', 'CL30 低时序', 'RGB 灯效', '性价比之王'],
       specs: {
         type: 'DDR5',
