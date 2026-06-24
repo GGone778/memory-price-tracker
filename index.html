@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>内存条价格追踪</title>
+  <link rel="stylesheet" href="style.css?v=2">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">💾 价格追踪</a>
+      <div class="nav-links">
+        <a href="#home" data-view="home" class="active">首页</a>
+        <a href="#products" data-view="products">产品列表</a>
+        <a href="#trends" data-view="trends">走势图</a>
+        <a href="#compare" data-view="compare">对比工具</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Views -->
+  <div class="container">
+
+    <!-- Home -->
+    <div id="view-home" class="view active"></div>
+
+    <!-- Products -->
+    <div id="view-products" class="view"></div>
+
+    <!-- Detail -->
+    <div id="view-detail" class="view"></div>
+
+    <!-- Trends -->
+    <div id="view-trends" class="view"></div>
+
+    <!-- Compare -->
+    <div id="view-compare" class="view"></div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    内存条价格追踪 &mdash; 数据仅供参考，实际价格以各电商平台为准
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
