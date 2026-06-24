@@ -49,7 +49,7 @@
     return [
       { platform: '淘宝', price: price, url: affiliateLinks.taobao || 'https://s.taobao.com/search?q=' + keyword },
       { platform: '天猫', price: Math.round(price * 1.02), url: affiliateLinks.tmall || 'https://list.tmall.com/search_product.htm?q=' + keyword },
-      { platform: '拼多多', price: Math.round(price * 0.95), url: 'https://mobile.yangkeduo.com/search_result.html?keyword=' + keyword }
+      { platform: '拼多多', price: Math.round(price * 0.95), url: affiliateLinks.pdd || 'https://mobile.yangkeduo.com/search_result.html?keyword=' + keyword }
     ];
   }
 

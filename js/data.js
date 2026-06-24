@@ -62,7 +62,10 @@ const RAMData = {
       reviews: 12800,
       launchDate: '2024-Q3',
       hot: true,
-      similarIds: ['cv-d5-6000-32', 'cr-d5-5600-16', 'ad-d5-6000-32']
+      similarIds: ['cv-d5-6000-32', 'cr-d5-5600-16', 'ad-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'kf-4-3200-16',
@@ -91,7 +94,10 @@ const RAMData = {
       reviews: 35600,
       launchDate: '2022-Q1',
       hot: true,
-      similarIds: ['cv-4-3200-16', 'cr-4-3200-16', 'gs-4-3600-16']
+      similarIds: ['cv-4-3200-16', 'cr-4-3200-16', 'gs-4-3600-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'cv-d5-6000-32',
@@ -120,7 +126,10 @@ const RAMData = {
       reviews: 8600,
       launchDate: '2024-Q2',
       hot: true,
-      similarIds: ['gs-d5-6000-32', 'ad-d5-6000-32', 'kf-5-6000-16']
+      similarIds: ['gs-d5-6000-32', 'ad-d5-6000-32', 'kf-5-6000-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'cv-4-3200-16',
@@ -149,7 +158,10 @@ const RAMData = {
       reviews: 42000,
       launchDate: '2021-Q2',
       hot: true,
-      similarIds: ['kf-4-3200-16', 'cr-4-3200-16', 'gs-4-3600-16']
+      similarIds: ['kf-4-3200-16', 'cr-4-3200-16', 'gs-4-3600-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'gs-d5-6000-32',
@@ -178,7 +190,10 @@ const RAMData = {
       reviews: 6200,
       launchDate: '2024-Q1',
       hot: true,
-      similarIds: ['cv-d5-6000-32', 'ad-d5-6000-32', 'kf-5-6000-16']
+      similarIds: ['cv-d5-6000-32', 'ad-d5-6000-32', 'kf-5-6000-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'gs-4-3600-16',
@@ -207,7 +222,10 @@ const RAMData = {
       reviews: 18500,
       launchDate: '2022-Q3',
       hot: false,
-      similarIds: ['kf-4-3200-16', 'cv-4-3200-16', 'cr-4-3200-16']
+      similarIds: ['kf-4-3200-16', 'cv-4-3200-16', 'cr-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'cr-4-3200-16',
@@ -236,7 +254,10 @@ const RAMData = {
       reviews: 9800,
       launchDate: '2022-Q2',
       hot: false,
-      similarIds: ['kf-4-3200-16', 'cv-4-3200-16', 'gs-4-3600-16']
+      similarIds: ['kf-4-3200-16', 'cv-4-3200-16', 'gs-4-3600-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'cr-d5-5600-16',
@@ -265,7 +286,10 @@ const RAMData = {
       reviews: 5600,
       launchDate: '2024-Q1',
       hot: false,
-      similarIds: ['kf-5-6000-16', 'ad-d5-5600-32', 'kv-d5-6000-32']
+      similarIds: ['kf-5-6000-16', 'ad-d5-5600-32', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ad-d5-6000-32',
@@ -294,7 +318,10 @@ const RAMData = {
       reviews: 11200,
       launchDate: '2024-Q2',
       hot: true,
-      similarIds: ['gs-d5-6000-32', 'cv-d5-6000-32', 'kingbank-d5-6400-32']
+      similarIds: ['gs-d5-6000-32', 'cv-d5-6000-32', 'kingbank-d5-6400-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ad-4-3600-16',
@@ -323,7 +350,10 @@ const RAMData = {
       reviews: 7800,
       launchDate: '2022-Q4',
       hot: false,
-      similarIds: ['gs-4-3600-16', 'kf-4-3200-16', 'cv-4-3200-16']
+      similarIds: ['gs-4-3600-16', 'kf-4-3200-16', 'cv-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'sm-d5-5600-32',
@@ -352,7 +382,10 @@ const RAMData = {
       reviews: 3200,
       launchDate: '2024-Q1',
       hot: false,
-      similarIds: ['cr-d5-5600-16', 'hn-d5-4800-32', 'kv-d5-6000-32']
+      similarIds: ['cr-d5-5600-16', 'hn-d5-4800-32', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'hn-d5-4800-32',
@@ -381,7 +414,10 @@ const RAMData = {
       reviews: 2100,
       launchDate: '2024-Q1',
       hot: false,
-      similarIds: ['sm-d5-5600-32', 'cr-d5-5600-16', 'kv-d5-6000-32']
+      similarIds: ['sm-d5-5600-32', 'cr-d5-5600-16', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'tm-d5-6000-32',
@@ -410,7 +446,10 @@ const RAMData = {
       reviews: 6800,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['gs-d5-6000-32', 'ad-d5-6000-32', 'cv-d5-6000-32']
+      similarIds: ['gs-d5-6000-32', 'ad-d5-6000-32', 'cv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'kb-4-3200-16',
@@ -439,7 +478,10 @@ const RAMData = {
       reviews: 52000,
       launchDate: '2022-Q1',
       hot: true,
-      similarIds: ['kf-4-3200-16', 'cv-4-3200-16', 'kt-4-3200-16']
+      similarIds: ['kf-4-3200-16', 'cv-4-3200-16', 'kt-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'gw-d5-6000-32',
@@ -468,7 +510,10 @@ const RAMData = {
       reviews: 28000,
       launchDate: '2024-Q1',
       hot: true,
-      similarIds: ['kingbank-d5-6400-32', 'kus-d5-6000-32', 'kv-d5-6000-32']
+      similarIds: ['kingbank-d5-6400-32', 'kus-d5-6000-32', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'cl-d5-6000-32',
@@ -497,7 +542,10 @@ const RAMData = {
       reviews: 4500,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['gw-d5-6000-32', 'kingbank-d5-6400-32', 'ad-d5-6000-32']
+      similarIds: ['gw-d5-6000-32', 'kingbank-d5-6400-32', 'ad-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ga-4-4000-16',
@@ -526,7 +574,10 @@ const RAMData = {
       reviews: 3200,
       launchDate: '2022-Q1',
       hot: false,
-      similarIds: ['gs-4-3600-16', 'tm-d5-6000-32', 'cv-4-3200-16']
+      similarIds: ['gs-4-3600-16', 'tm-d5-6000-32', 'cv-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ac-d5-6000-32',
@@ -555,7 +606,10 @@ const RAMData = {
       reviews: 5400,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['gs-d5-6000-32', 'ad-d5-6000-32', 'gw-d5-6000-32']
+      similarIds: ['gs-d5-6000-32', 'ad-d5-6000-32', 'gw-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'kt-4-3200-16',
@@ -584,7 +638,10 @@ const RAMData = {
       reviews: 8900,
       launchDate: '2023-Q1',
       hot: false,
-      similarIds: ['kb-4-3200-16', 'ms-4-3200-16', 'ap-4-3200-16']
+      similarIds: ['kb-4-3200-16', 'ms-4-3200-16', 'ap-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ap-4-3200-16',
@@ -613,7 +670,10 @@ const RAMData = {
       reviews: 4200,
       launchDate: '2023-Q2',
       hot: false,
-      similarIds: ['kt-4-3200-16', 'ms-4-3200-16', 'kb-4-3200-16']
+      similarIds: ['kt-4-3200-16', 'ms-4-3200-16', 'kb-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'kv-d5-6000-32',
@@ -642,7 +702,10 @@ const RAMData = {
       reviews: 3800,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['gw-d5-6000-32', 'kingbank-d5-6400-32', 'cr-d5-5600-16']
+      similarIds: ['gw-d5-6000-32', 'kingbank-d5-6400-32', 'cr-d5-5600-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'bw-d5-6000-32',
@@ -671,7 +734,10 @@ const RAMData = {
       reviews: 5600,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['gw-d5-6000-32', 'kingbank-d5-6400-32', 'cus-d5-6000-32']
+      similarIds: ['gw-d5-6000-32', 'kingbank-d5-6400-32', 'cus-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ms-4-3200-16',
@@ -700,7 +766,10 @@ const RAMData = {
       reviews: 6700,
       launchDate: '2023-Q3',
       hot: false,
-      similarIds: ['kb-4-3200-16', 'kt-4-3200-16', 'ap-4-3200-16']
+      similarIds: ['kb-4-3200-16', 'kt-4-3200-16', 'ap-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'gb-d5-6000-32',
@@ -729,7 +798,10 @@ const RAMData = {
       reviews: 4100,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['msi-d5-6000-32', 'ac-d5-6000-32', 'ad-d5-6000-32']
+      similarIds: ['msi-d5-6000-32', 'ac-d5-6000-32', 'ad-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'msi-d5-6000-32',
@@ -758,7 +830,10 @@ const RAMData = {
       reviews: 3600,
       launchDate: '2024-Q2',
       hot: false,
-      similarIds: ['gb-d5-6000-32', 'ac-d5-6000-32', 'ad-d5-6000-32']
+      similarIds: ['gb-d5-6000-32', 'ac-d5-6000-32', 'ad-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'ag-d5-6000-32',
@@ -787,7 +862,10 @@ const RAMData = {
       reviews: 7200,
       launchDate: '2024-Q3',
       hot: false,
-      similarIds: ['cus-d5-6000-32', 'tecl-d5-5600-32', 'gw-d5-6000-32']
+      similarIds: ['cus-d5-6000-32', 'tecl-d5-5600-32', 'gw-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'kus-d5-6000-32',
@@ -816,7 +894,10 @@ const RAMData = {
       reviews: 8900,
       launchDate: '2024-Q2',
       hot: true,
-      similarIds: ['gw-d5-6000-32', 'kb-4-3200-16', 'kv-d5-6000-32']
+      similarIds: ['gw-d5-6000-32', 'kb-4-3200-16', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'net-d4-3200-16',
@@ -845,7 +926,10 @@ const RAMData = {
       reviews: 5600,
       launchDate: '2023-Q3',
       hot: false,
-      similarIds: ['kt-4-3200-16', 'ms-4-3200-16', 'ap-4-3200-16']
+      similarIds: ['kt-4-3200-16', 'ms-4-3200-16', 'ap-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'tecl-d5-5600-32',
@@ -874,7 +958,10 @@ const RAMData = {
       reviews: 3200,
       launchDate: '2024-Q1',
       hot: false,
-      similarIds: ['cr-d5-5600-16', 'ad-d5-5600-32', 'kv-d5-6000-32']
+      similarIds: ['cr-d5-5600-16', 'ad-d5-5600-32', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'onda-d5-6000-32',
@@ -903,7 +990,10 @@ const RAMData = {
       reviews: 2800,
       launchDate: '2024-Q3',
       hot: false,
-      similarIds: ['cus-d5-6000-32', 'tecl-d5-5600-32', 'ms-4-3200-16']
+      similarIds: ['cus-d5-6000-32', 'tecl-d5-5600-32', 'ms-4-3200-16'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'team-d5-6400-32',
@@ -932,7 +1022,10 @@ const RAMData = {
       reviews: 7200,
       launchDate: '2024-Q2',
       hot: true,
-      similarIds: ['gs-d5-6000-32', 'cv-d5-6000-32', 'ad-d5-6000-32']
+      similarIds: ['gs-d5-6000-32', 'cv-d5-6000-32', 'ad-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'gs-d5-7200-32',
@@ -961,7 +1054,10 @@ const RAMData = {
       reviews: 4500,
       launchDate: '2024-Q3',
       hot: true,
-      similarIds: ['gs-d5-6000-32', 'team-d5-6400-32', 'cv-d5-6000-32']
+      similarIds: ['gs-d5-6000-32', 'team-d5-6400-32', 'cv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
     {
       id: 'kingbank-d5-6400-32',
@@ -991,6 +1087,9 @@ const RAMData = {
       launchDate: '2024-Q2',
       hot: true,
       similarIds: ['gw-d5-6000-32', 'kus-d5-6000-32', 'kv-d5-6000-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验',
       affiliateLinks: {
         taobao: 'https://s.click.taobao.com/t?e=m%3D2%26s%3D%2FIMDr7ekiSVw4vFB6t2Z2ueEDrYVVa64YUrQeSeIhnK53hKxp7mNFo30ZFekjizvddHxgDIYES%2F0JlhLk0Jl4ZGFwieI5raviqkbEUdU8r4cKhwHOZgCBEcJT1Qmc5iPBxobTWzEJK7WqunGLAygI3FzUC1tkZVL%2BUiqE5XxszqdYh4l0uKumM0Q9fK1X0Au0ItOGVs%2B65ktv3cN%2Fx87OLmO%2FxuoYpzJyHJSFW0nXw%2Fx4iwY2kD%2FOCbXePZs%2BTK5n1FqhqgBFGmOd0BEOqp7nD%2FOlpu4wz2ocHol32lR%2BtHUqKWYqyfTDKAGz9nhKe%2FuO8vH6hQ5u0HGDmntuH4VtA%3D%3D&union_lens=lensId%3APUB%401782271022%40213ee9e4_0dd1_19ef7a194fe_1fc8%40022Sif2njMsp2AElipfW6MrN%40eyJmbG9vcklkIjo4MDY3NCwiic3BtQiiI6Il9wb3J0YWxfdjJfcGFnZXNfcHJvbW9fZ29vZHNfaW5kZXhfaHRtIiiwiic3JjRmxvb3JJZCI6IjgwNjc0In0ie%3BtkScm%3AselectionPlaza_site_4358_0_0_0_1_178227102242010378259192%3Bscm%3A1007.30148.329090.pub_search-item_0fedd03d-b585-4b05-8c67-af49e3ee4d27_'
       }
@@ -1022,7 +1121,10 @@ const RAMData = {
       reviews: 18500,
       launchDate: '2024-Q2',
       hot: true,
-      similarIds: ['kingbank-d5-6400-32', 'kus-d5-6000-32', 'tecl-d5-5600-32']
+      similarIds: ['kingbank-d5-6400-32', 'kus-d5-6000-32', 'tecl-d5-5600-32'],
+      lastUpdated: '2026-06-24',
+      priceSource: '模拟数据/待核验',
+      catalogStatus: '待核验'
     },
   ],
 
